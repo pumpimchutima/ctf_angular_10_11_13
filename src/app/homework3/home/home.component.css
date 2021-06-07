@@ -1,0 +1,13 @@
+a{
+    color: white;
+}
+.btn-cus{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
+.btn-cus button{
+    margin-right: 10px;
+}

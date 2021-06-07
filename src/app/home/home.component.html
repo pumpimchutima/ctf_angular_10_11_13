@@ -1,0 +1,17 @@
+<div>
+  <h2>Home Component Work</h2>
+  <h3>{{ title }}</h3>
+  <div class="header">Set Title : <input [(ngModel)]="title" /></div>
+</div>
+
+<div>
+  <h2>{{ count }}</h2>
+  <button (click)="countNumber()">Count</button>
+</div>
+
+<ul>
+  <li *ngFor="let item of items">
+    <span *ngIf="item !== 5">{{ item }}</span>
+    <b *ngIf="item === 5">{{ item }}</b>
+  </li>
+</ul>

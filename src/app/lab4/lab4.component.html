@@ -1,0 +1,5 @@
+<div class="bg">
+    <h2>Lap 4</h2>
+    <p [ngClass]="{'number-odd' : item % 2 !== 0 , 'number-even': item % 2 === 0 }" *ngFor="let item of items">{{item}}</p>
+
+</div>
